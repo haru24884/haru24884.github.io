@@ -1,0 +1,17 @@
+
+/* type */
+
+li{
+    color: red;
+}
+
+body{
+    border: solid;
+    font-size: initial;
+}
+
+/* class */
+.gohan{
+    color: rgb(0, 255, 21);
+    font-size: 12px;
+}
