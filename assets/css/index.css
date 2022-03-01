@@ -16,28 +16,39 @@ body {
 
 a {
     text-decoration: none;
+    color: #331B1A;   
 }
 
+p {
+    color: #331B1A;
+}
+
+h2 {
+    color: #331B1A;   
+}
+
+/* top */
 header {
-    height: 100px;
+    height: 80px;
     width: 100%;
     padding: 15px;
     margin: 100 auto;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: #331B1A;
     overflow: hidden;
+    position: fixed;
 }
 
 .TOP {
     line-height: 100px;
     float: left;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 .nav-list {
-    line-height: 100px;
+    line-height: 80x;
     float: right;
     margin-right: 30px;
 }
@@ -45,29 +56,101 @@ header {
 .nav-item {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
-    margin-right: 4px;
+    margin: 20px 30px;
+    margin-right:auto;
 }
-
-
-
 
 
 /* class */
-.top-wrapper {
-    background-image: url(../assets/image/shop\ curtain.png);
-    background-size: auto 1680px;
+ .top-wrapper {
+    background-image: url(../image/shop\ curtain.png);
     background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
 }
+
+
 .top-content {
     color: #FBFDFF;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
 }
 
 .top-title {
     font-size: 54px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .top-subtitle {
     font-size: 38px;
+    font-weight: 300;
 }
+
+
+/* vision */
+.section-content-vision {
+    margin-top: 300px;
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+}
+
+.vision-text-title {
+    font-size: 400%;
+}
+
+.vision-text-wrapper img{
+    width: 500px;
+    margin-top: -5%;
+} 
+
+.vision-text-wrapper {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 145%;
+    width: 70%;
+    height: 3.2rem;
+}
+
+.vision-text {
+    font-size: xxx-large;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+
+}
+
+.vision-img-wrapper {
+    position: absolute;
+    right: -10%;
+    top: 140%;
+    width: 50%;
+    height: 50%;
+    margin-right: 100px;
+}
+
+.vision-img-wrapper img {
+    max-width: 550px;
+}
+
+
+
+
+
+
+
+.section-content-works {
+    background-image: url(../image/waves.png);
+    background-size: auto 1800px;
+    background-repeat: no-repeat;
+} 
