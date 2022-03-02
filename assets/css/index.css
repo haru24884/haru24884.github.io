@@ -151,11 +151,35 @@ header {
 
 
 
-
-
+/* works */
 
 .section-content-works {
     background-image: url(../image/waves.png);
-    background-size: auto 1800px;
+    background-size: 100% auto;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 } 
+
+.section-content-buttton {
+    color: #FBFDFF;
+    position: absolute;
+    font-weight: bold;
+    font-size: xxx-large;
+    background: #331B1A;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-family: 'roboto', 'Kosugi Maru';
+}
+
+
+.section-content-yaotan img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    transform: translateY(-10%);
+}
