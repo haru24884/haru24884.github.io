@@ -61,7 +61,7 @@ header {
 }
 
 
-/* class */
+/* top */
  .top-wrapper {
     background-image: url(../image/shop\ curtain.png);
     background-repeat: no-repeat;
@@ -104,11 +104,12 @@ header {
 }
 
 .vision-text-title {
-    font-size: 400%;
+    font-size: 450%;
+    width: auto;
 }
 
 .vision-text-wrapper img{
-    width: 500px;
+    width: 75%;
     margin-top: -5%;
 } 
 
@@ -117,30 +118,34 @@ header {
     right: 0;
     left: 0;
     margin: auto;
-    top: 145%;
-    width: 70%;
-    height: 3.2rem;
+    top: 140%;
+    width: 40%;
+    height: 50%;
+    margin-left: 10%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .vision-text {
     font-size: xxx-large;
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
-
+    width: auto;
 }
 
 .vision-img-wrapper {
     position: absolute;
-    right: -10%;
+    right: 0%;
     top: 140%;
-    width: 50%;
-    height: 50%;
-    margin-right: 100px;
+    width: 45%;
+    height: 100vh;
+    margin-right: 0;
 }
 
 .vision-img-wrapper img {
-    max-width: 550px;
+    width: 80%;
 }
 
 
