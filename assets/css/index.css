@@ -7,11 +7,13 @@
     margin: 0;
 }
 
-body {
-    background-color: #FBFDFF;
-    font-size: 10px;
-    font-family: 'roboto', 'Kosugi Maru';
-    font-size: initial;
+@media screen {
+    body {
+        background-color: #FBFDFF;
+        font-size: 10px;
+        font-family: 'roboto', 'Kosugi Maru';
+        font-size: initial;
+    }
 }
 
 a {
@@ -186,23 +188,71 @@ header {
 
 /* works */
 
-.section-content-works {
+#work-intro-section {
     background-image: url(../image/waves.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-
+    justify-content: center;
 } 
 
-.section-content-dsc {
-    display: flex;
+
+.work {
+    width: 28%;
+    height: 900px; /**/
     position: relative;
+    text-align: center;
 }
 
-.section-content-buttton {
+.work .section-content-img {
+    position: absolute;
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 10%;
+    z-index: 500;
+}
+
+.work .section-content-dsc {
+    background-color: #FBFDFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 40%;
+    width: 95%;
+    top: 40%;
+    border-radius: 30%;
+    z-index: 400;
+} 
+
+.work .section-content-dsc h3 {
+  font-size: 400%;
+  font-family: 'roboto', 'Kosugi Maru';
+  margin: 20% 0 20px 0;
+}
+
+.work .section-content-dsc p {
+    font-size: large;
+  }
+
+.work .section-content-dsc button {
+    background-color:#331B1A;
+    margin: 10% 0 10% 0;
+    border-radius: 40px;
+    max-height: 100px;
+    min-height: 60px;
+    min-width: 200px;
+}
+
+.work .section-content-dsc a {
+    color:#FBFDFF;
+    font-size: xx-large;
+    margin: 40px 10% 40px 10%;
+}
+
+/* .section-content-buttton {
     color: #FBFDFF;
     position: absolute;
     font-weight: bold;
@@ -214,9 +264,9 @@ header {
     border: 1px solid #ccc;
     display: inline-block;
     text-decoration: none; 
-    outline: none;
-    /*アニメーションの指定*/
-    transition: all .3s;
+    outline: none; */
+    /*animation*/
+    /* transition: all .3s;
     z-index: 500;
 }
 
@@ -230,7 +280,7 @@ header {
     flex-direction:column;
     justify-content: space-around;
     position: absolute;
-    margin:40px 0;
+    margin80px 0;
     z-index: 400;
 }
 
@@ -239,4 +289,4 @@ header {
     position: absolute;
     align-items: center;
 }
-
+ */
