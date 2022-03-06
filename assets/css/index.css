@@ -199,7 +199,7 @@ header {
 
 .work {
     width: 28%;
-    height: 900px; /**/
+    min-height: 910px; /**/
     position: relative;
     text-align: center;
 }
@@ -210,7 +210,7 @@ header {
     left: 0;
     right: 0;
     margin: auto;
-    top: 10%;
+    top: 16%;
     z-index: 500;
 }
 
@@ -222,7 +222,7 @@ header {
     margin: auto;
     height: 40%;
     width: 95%;
-    top: 40%;
+    bottom: 20%;
     border-radius: 30%;
     z-index: 400;
 } 
@@ -244,7 +244,14 @@ header {
     max-height: 100px;
     min-height: 60px;
     min-width: 200px;
+    /*animation*/
+    transition: all .3s;
 }
+
+/* .work .section-content-buttton:hover {
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+    border-color: transparent;
+  } */
 
 .work .section-content-dsc a {
     color:#FBFDFF;
@@ -252,41 +259,51 @@ header {
     margin: 40px 10% 40px 10%;
 }
 
-/* .section-content-buttton {
-    color: #FBFDFF;
+/* about */
+.section-content-about {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+
+
+.about .content-img {
+    position: relative;
+    width: auto;
+    height: 100vh;
+    margin-top: 10%;
+    justify-content: center;
+    z-index: 100;
+}
+
+
+.about .content-name {
+    width: 30%;
     position: absolute;
-    font-weight: bold;
-    font-size: xxx-large;
-    background: #331B1A;
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-family: 'roboto', 'Kosugi Maru';
-    border: 1px solid #ccc;
-    display: inline-block;
-    text-decoration: none; 
-    outline: none; */
-    /*animation*/
-    /* transition: all .3s;
+    margin-top: 16%;
+    /* left: 0;
+    right: 0;
+    margin: auto; */
     z-index: 500;
 }
 
-.section-content-buttton:hover {
-    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
-    border-color: transparent;
-  }
-
-.section-content-img{
-    display: flex;
-    flex-direction:column;
-    justify-content: space-around;
+.about .section-content-dsc {
+    width:80%;
+    height: 60%;
     position: absolute;
-    margin80px 0;
-    z-index: 400;
+    margin-top: 30%;
+    display: flex;
+    z-index: 300;
 }
 
-.section-content-yaotan {
-    display: flex;
+.about .section-content-dsc p{
     position: absolute;
+    justify-content: center;
     align-items: center;
+    z-index: 300;
 }
- */
+
+.about .section-content-dsc a {
+
+}
