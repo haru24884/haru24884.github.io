@@ -271,21 +271,10 @@ header {
 .about .content-img {
     position: relative;
     width: auto;
-    height: 100vh;
+    height: 80vh;
     margin-top: 10%;
     justify-content: center;
     z-index: 100;
-}
-
-
-.about .content-name {
-    width: 30%;
-    position: absolute;
-    margin-top: 16%;
-    /* left: 0;
-    right: 0;
-    margin: auto; */
-    z-index: 500;
 }
 
 .about .section-content-dsc {
@@ -297,13 +286,14 @@ header {
     z-index: 300;
 }
 
-.about .section-content-dsc p{
+.about .section-content-dsc-link {
+    width: 30%;
+    height: 10%;
     position: absolute;
-    justify-content: center;
-    align-items: center;
-    z-index: 300;
 }
 
 .about .section-content-dsc a {
-
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'roboto', 'Kosugi Maru';
 }
