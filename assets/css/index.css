@@ -262,9 +262,11 @@ header {
 /* about */
 .section-content-about {
     width: auto;
-    height: auto;
+    height: 100vh;
+    margin-top: 10%;
     justify-content: center;
     display: flex;
+
 }
 
 
@@ -278,22 +280,71 @@ header {
 }
 
 .about .section-content-dsc {
-    width:80%;
-    height: 60%;
+    width:40%;
+    height:8vh;
     position: absolute;
-    margin-top: 30%;
-    display: flex;
     z-index: 300;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-top: 52%;
 }
 
 .about .section-content-dsc-link {
-    width: 30%;
-    height: 10%;
-    position: absolute;
+    width: 40%;
+    height: 100%;
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto; */
+    align-items: center;
+    flex-direction: column;
 }
 
 .about .section-content-dsc a {
     font-size: xx-large;
     font-weight: bold;
     font-family: 'roboto', 'Kosugi Maru';
+    margin: 0 0 -50% 0;
+}
+
+
+/* contact */
+
+.section-content-contact {
+    width: auto;
+    height: 100vh;
+    margin-top: 10%;
+    justify-content: center;
+    display: flex;
+}
+
+.section-content-contact img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.contact .section-content-name {
+    position: absolute;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 12%;
+}
+
+.contact .section-content-dsc {
+    position: absolute;
+    text-align: center;
+    margin-top: 30%;
+}
+
+
+
+
+footer {
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: large;
+    margin: 0 10pt 10pt 0;
 }
