@@ -2,10 +2,22 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>haru's portfolio</title>
+    <title>Haruna.N's portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- <link rel="stylesheet" href="./assets/css/index.css"> -->
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'kjs4bzz',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+    <link rel="stylesheet" href="./assets/css/index.css">
   </head>
+
+
   <body>
     <!-- header -->
     <header class="header-wrapper">
@@ -30,7 +42,9 @@
         <div class="top-content">
           <img src="./assets/image/logo.png" alt="logo">
           <h1 id="top-title">Haruna.N's portfolio</h1>
-            <a href="#">PDF版をダウンロードする</a>
+            <div id="pdf">
+              <a href="#">PDF版をダウンロードする</a>
+            </div>
         </div>
       </div>
       <!-- //top -->
@@ -132,7 +146,7 @@
       <!-- footer -->
     <footer>
       <img src="./assets/image/footerbar.png" alt="">
-      <br>
+        <br>
       <img src="./assets/image/logo-s.png" alt="">
       <p>
         &copy; Haruna.N 2022

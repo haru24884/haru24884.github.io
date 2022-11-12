@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Roboto:wght@400;500&display=swap');
 /* type */
 
 * {
@@ -10,39 +9,42 @@
 @media screen {
     body {
         background-color: #FBFDFF;
-        font-size: 10px;
-        font-family: 'roboto', 'Kosugi Maru';
+        font-family: "TBUDGothic-Std", "Mr-Eaves-Modern", sans-serif;
+        font-style: normal;
         font-size: initial;
     }
 }
 
 a {
     text-decoration: none;
-    color: #331B1A;   
+    color: #444444;    
+    font-family: "Mr-Eaves-Modern"
 }
 
 p {
-    color: #331B1A;
+    color: #444444;
+}
+
+h1 {
+    color: #000000;
+    font-family: "Mr-Eaves-Modern";
+    font-style: bold;
 }
 
 h2 {
-    color: #331B1A;   
+    color: #000000;
+    font-family: "Mr-Eaves-Modern"   
+}
+
+h3 {
+    color: #000000;   
 }
 
 /* top */
 header {
-    height: 80px;
-    width: 100%;
-    padding: 15px;
-    margin: 100 auto;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    color: #331B1A;
-    overflow: hidden;
-    position: fixed;
-    /* front */
-    z-index: 1000;
+    display: list-item;
+    font-size: large;
+    
     /* animation */
     animation-name:header;
     animation-duration:5s;
@@ -60,39 +62,18 @@ header {
       }
     }
 
-
-.TOP {
-    line-height: 100px;
-    float: left;
-    margin-left: 10px;
-}
-
 .nav-list {
-    line-height: 80x;
-    float: right;
-    margin-right: 30px;
-}
-
-.nav-item {
-    list-style: none;
-    display: inline-block;
-    margin: 20px 30px;
-    margin-right:auto;
+    text-align: right;
+    margin-top: 2%;
+    margin-right: 10%;
 }
 
 
 /* top */
  .top-wrapper {
-    background-image: url(../image/shop\ curtain.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
+    padding: 18px;
     text-align: center;
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
+    margin-bottom: 30vw;
 /* animation */
     animation-name:top-wrapper;
     animation-duration:3s;
@@ -110,235 +91,20 @@ header {
       }
     }
 
-
-.top-content {
-    color: #FBFDFF;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -70%);
+#top-title {
+    font-size: 64px;
+    background: linear-gradient(transparent 64%, #FFFCCE 20%);
+    max-width: fit-content;
+    margin: 5vw auto;
 }
 
-.top-title {
-    font-size: 54px;
-    font-weight: 600;
+#pdf {
+    background-color: #4444441A;
+    font-size: x-large;
+    text-decoration: underline;
+    padding: 24px 0;
+    margin: 0 30%;
 }
-
-.top-subtitle {
-    font-size: 38px;
-    font-weight: 300;
-}
-
-
-/* concept */
-.section-content-concept {
-    margin-top: 300px;
-    display: flex;
-    width: 100vh;
-    height: 100vh;
-}
-
-.concept-text-title {
-    font-size: 450%;
-    width: auto;
-}
-
-.concept-text-wrapper img{
-    width: 75%;
-    margin-top: -5%;
-} 
-
-.concept-text-wrapper {
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: auto;
-    top: 140%;
-    width: 40%;
-    height: 50%;
-    margin-left: 10%;
-    margin-top: 3%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.concept-text {
-    font-size: xxx-large;
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-}
-
-.concept-img-wrapper {
-    position: absolute;
-    right: 0%;
-    top: 140%;
-    width: 45%;
-    height: 100vh;
-    margin-right: 0;
-}
-
-.concept-img-wrapper img {
-    width: 80%;
-}
-
-
-
-
-/* works */
-
-#work-intro-section {
-    background-image: url(../image/waves.png);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-} 
-
-
-.work {
-    width: 28%;
-    min-height: 910px; /**/
-    position: relative;
-    text-align: center;
-}
-
-.work .section-content-img {
-    position: absolute;
-    width: 70%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 16%;
-    z-index: 500;
-}
-
-.work .section-content-dsc {
-    background-color: #FBFDFF;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: 40%;
-    width: 95%;
-    bottom: 20%;
-    border-radius: 30%;
-    z-index: 400;
-} 
-
-.work .section-content-dsc h3 {
-  font-size: 400%;
-  font-family: 'roboto', 'Kosugi Maru';
-  margin: 20% 0 20px 0;
-}
-
-.work .section-content-dsc p {
-    font-size: large;
-  }
-
-.work .section-content-dsc button {
-    background-color:#331B1A;
-    margin: 10% 0 10% 0;
-    border-radius: 40px;
-    max-height: 100px;
-    min-height: 60px;
-    min-width: 200px;
-    /*animation*/
-    transition: all .3s;
-}
-
-/* .work .section-content-buttton:hover {
-    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
-    border-color: transparent;
-  } */
-
-.work .section-content-dsc a {
-    color:#FBFDFF;
-    font-size: xx-large;
-    margin: 40px 10% 40px 10%;
-}
-
-/* about */
-.section-content-about {
-    width: auto;
-    height: 100vh;
-    margin-top: 10%;
-    justify-content: center;
-    display: flex;
-
-}
-
-
-.about .content-img {
-    position: relative;
-    width: auto;
-    height: 80vh;
-    margin-top: 10%;
-    justify-content: center;
-    z-index: 100;
-}
-
-.about .section-content-dsc {
-    width:40%;
-    height:8vh;
-    position: absolute;
-    z-index: 300;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: row;
-    margin-top: 52%;
-}
-
-.about .section-content-dsc-link {
-    width: 40%;
-    height: 100%;
-    /* position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto; */
-    align-items: center;
-    flex-direction: column;
-}
-
-.about .section-content-dsc a {
-    font-size: xx-large;
-    font-weight: bold;
-    font-family: 'roboto', 'Kosugi Maru';
-    margin: 0 0 -50% 0;
-}
-
-
-/* contact */
-
-.section-content-contact {
-    width: auto;
-    height: 100vh;
-    margin-top: 10%;
-    justify-content: center;
-    display: flex;
-}
-
-.section-content-contact img {
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-
-.contact .section-content-name {
-    position: absolute;
-    text-align: center;
-    font-size: xx-large;
-    margin-top: 12%;
-}
-
-.contact .section-content-dsc {
-    position: absolute;
-    text-align: center;
-    margin-top: 30%;
-}
-
-
 
 
 footer {
