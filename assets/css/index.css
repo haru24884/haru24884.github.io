@@ -130,25 +130,25 @@ header {
 }
 
 
-/* vision */
-.section-content-vision {
+/* concept */
+.section-content-concept {
     margin-top: 300px;
     display: flex;
     width: 100vh;
     height: 100vh;
 }
 
-.vision-text-title {
+.concept-text-title {
     font-size: 450%;
     width: auto;
 }
 
-.vision-text-wrapper img{
+.concept-text-wrapper img{
     width: 75%;
     margin-top: -5%;
 } 
 
-.vision-text-wrapper {
+.concept-text-wrapper {
     position: absolute;
     right: 0;
     left: 0;
@@ -163,14 +163,14 @@ header {
     align-items: center;
 }
 
-.vision-text {
+.concept-text {
     font-size: xxx-large;
     display: flex;
     flex-wrap: wrap;
     width: auto;
 }
 
-.vision-img-wrapper {
+.concept-img-wrapper {
     position: absolute;
     right: 0%;
     top: 140%;
@@ -179,7 +179,7 @@ header {
     margin-right: 0;
 }
 
-.vision-img-wrapper img {
+.concept-img-wrapper img {
     width: 80%;
 }
 
@@ -343,7 +343,7 @@ header {
 
 footer {
     height: 10%;
-    display: flex;
+    display: flex;  
     justify-content: flex-end;
     font-size: large;
     margin: 0 10pt 10pt 0;
