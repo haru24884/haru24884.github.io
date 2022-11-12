@@ -2,10 +2,22 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>haru's portfolio</title>
+    <title>Haruna.N's portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- <link rel="stylesheet" href="./assets/css/index.css"> -->
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'kjs4bzz',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+    <link rel="stylesheet" href="./assets/css/index.css">
   </head>
+
+
   <body>
     <!-- header -->
     <header class="header-wrapper">
@@ -27,11 +39,11 @@
     <main>
       <!-- top -->
       <div class="top-wrapper">
-        <div class="top-content">
-          <img src="./assets/image/logo.png" alt="logo">
+          <div id="top-img"></div>
           <h1 id="top-title">Haruna.N's portfolio</h1>
-            <a href="#">PDF版をダウンロードする</a>
-        </div>
+            <div id="pdf">
+              <a href="#">PDF版をダウンロードする</a>
+            </div>
       </div>
       <!-- //top -->
 
@@ -40,12 +52,14 @@
         <div class="section-content section-content-concept">
           <h2 class="title">Concept</h2>
             <div class="text-wrapper">
-              <h3 class="subtitle">自然と、なじむ</h3>
-                <img src="./assets/image/concept-pic.png" alt="concept-pic">
-                <div class="concept-text">
-                  <p>その在り方や形には理由がある。元からそうであるかのような、すっと受け入れられるデザインを目指しています。</p>
-                  <p>使いやすさや情報の伝わりやすさを兼ね備え、未来を誰かにとって心地よいものに。</p>
-                </div>
+              <div id="concept-item">
+                <h3 class="subtitle">自然と、なじむ</h3>
+                <div id="concept-img"></div>
+              </div>
+              <div id="concept-text">
+                <p>その在り方や形には理由がある。元からそうであるかのような、すっと受け入れられるデザインを目指しています。</p>
+                <p>使いやすさや情報の伝わりやすさを兼ね備え、未来を誰かにとって心地よいものに。</p>
+              </div>
             </div>
         </div>
       </section>
@@ -55,29 +69,31 @@
       <section class="section-wrapper">
         <div class="section-content section-content-about">
           <h2 class="title">About</h2>
-            <div class="text-wrapper">
-              <h3 class="subtitle">まずはやる。</h3>
-                <div class="about-content">
-                  <img src="./assets/image/about-food.png" alt="about-food">
-                    <h4 id="food">食</h4>
-                      <p>イベント等を開催し、チームや企画の進め方を知るきっかけです。また、高校の学部では調理師免許を取得し、大学では国内外の文化と人との出会いにつながっています。</p>
+              <div id="text-wrapper-about">
+                <h3 class="subtitle">まずはやる。</h3>
+                <div id="about-content-wrapper">
+                  <div class="about-content">
+                    <img src="./assets/image/about-food.png" alt="about-food">
+                      <h4 id="food">食</h4>
+                        <p>イベント等を開催し、チームや企画の進め方を知るきっかけです。また、高校の学部では調理師免許を取得し、大学では国内外の文化と人との出会いにつながっています。</p>
+                  </div>
+                  <div class="about-content">
+                    <img src="./assets/image/about-bicycle.png" alt="about-bicycle">
+                      <h4 id="bicycle">自転車</h4>
+                        <p>日本全国あちこちを周り、自分の視野が広がった大きな要因です。知っていると思っていた自分の住む国でさえ、行ってみないと気づかないことだらけでした。</p>
+                  </div>
+                  <div class="about-content">
+                    <img src="./assets/image/about-business.png" alt="about-business">
+                      <h4 id="business">経営</h4>
+                        <p>社会全体に影響する企業、ビジネスの世界を知ろうと大学では経営学を専攻。座学だけでなく、アイデアの練り方やプレゼンでの伝え方を鍛えたことは今も生きています。</p>
+                  </div>
+                  <div class="about-content">
+                    <img src="./assets/image/about-accounting.png" alt="about-accounting">
+                      <h4 id="accounting">会計</h4>
+                        <p>管理会計を中心に実務を経験しています。決算等の通常業務に加え、部署内外での情報伝達方法の改善や他チームとのコミュニケーションの機会を設け、推進しました。</p>
+                  </div>
                 </div>
-                <div class="about-content">
-                  <img src="./assets/image/about-bicycle.png" alt="about-bicycle">
-                    <h4 id="bicycle">自転車</h4>
-                      <p>日本全国あちこちを周り、自分の視野が広がった大きな要因です。知っていると思っていた自分の住む国でさえ、行ってみないと気づかないことだらけでした。</p>
-                </div>
-                <div class="about-content">
-                  <img src="./assets/image/about-business.png" alt="about-business">
-                    <h4 id="business">経営</h4>
-                      <p>社会全体に影響する企業、ビジネスの世界を知ろうと大学では経営学を専攻。座学だけでなく、アイデアの練り方やプレゼンでの伝え方を鍛えたことは今も生きています。</p>
-                </div>
-                <div class="about-content">
-                  <img src="./assets/image/about-accounting.png" alt="about-accounting">
-                    <h4 id="accounting">会計</h4>
-                      <p>管理会計を中心に実務を経験しています。決算等の通常業務に加え、部署内外での情報伝達方法の改善や他チームとのコミュニケーションの機会を設け、推進しました。</p>
-                </div>
-            </div>
+              </div>
         </div>
       </section>
       <!-- //section_about -->
@@ -87,30 +103,30 @@
       <section class="section-wrapper">
         <div class="section-content section-content-works">
           <h2 class="title">Works</h2>
+          <div id="text-wrapper-works">
           <!-- Katten -->
             <div class="works-content">
-              <img src="./assets/image/works-back.png">
-                <a id="Katten" href="#">Katten</a>
+                <a id="katten" href="#">Katten</a>
                 <p>アプリコンセプト・デザイン</p>
                 <p>”いつでも見られる物置棚”</p>
             </div>
 
           <!-- Craftshop -->
-          <div class="works-content">
-            <img src="./assets/image/works-back.png">
-              <a id="Craftshop" href="#">Craftshop</a>
-              <p>ECサイト・ロゴデザイン</p>
-              <p>”愛される手仕事を伝える名刺”</p>
-          </div>
+            <div class="works-content">
+                <a id="craftshop" href="#">Craftshop</a>
+                <p>ECサイト・ロゴデザイン</p>
+                <p>”愛される手仕事を伝える名刺”</p>
+            </div>
 
           <!-- yaotan -->
-          <div class="works-content">
-            <img src="./assets/image/works-back.png">
-              <a id="yaotan" href="#">やおたん</a>
-              <p>アプリコンセプト・デザイン</p>
-              <p>”地域を、お店から好きになる。”</p>
+            <div class="works-content">
+                <a id="yaotan" href="#">やおたん</a>
+                <p>アプリコンセプト・デザイン</p>
+                <p>”地域を、お店から好きになる。”</p>
+            </div>
           </div>
-
+        </div>
+      </section>
       <!-- //section_works -->
 
 
@@ -118,12 +134,14 @@
       <section class="section-wrapper">
         <div class="section-content section-content-contact">
           <h2 class="title">Contact&Social</h2>
+          <div id="text-wrapper-contact">
             <h4 class="subtitle">お気軽にお問合せください。</h3>
               <div id="contact">
                 <a href="#">note</a>
                 <a href="#">Scrapbox</a>
                 <a href="#">Github</a>
               </div>
+          </div>
         </div>
       </section>
       <!-- //section_contact -->
@@ -131,12 +149,13 @@
 
       <!-- footer -->
     <footer>
-      <img src="./assets/image/footerbar.png" alt="">
-      <br>
-      <img src="./assets/image/logo-s.png" alt="">
-      <p>
-        &copy; Haruna.N 2022
-      </p>
+      <div id="footer-content">
+        <div id="footer-bar"></div>
+        <div id="footer-logo"></div>
+        <p>
+          &copy; Haruna.N 2022
+        </p>
+      </div>
     </footer>
       <!-- //footer -->
   </body>
