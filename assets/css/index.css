@@ -18,7 +18,7 @@
 a {
     text-decoration: none;
     color: #444444;    
-    font-family: "Mr-Eaves-Modern"
+    font-family: "TBUDGothic-Std", "Mr-Eaves-Modern";
 }
 
 p {
@@ -33,11 +33,11 @@ h1 {
 
 h2 {
     color: #000000;
-    font-family: "Mr-Eaves-Modern"   
+    font-style: normal;
 }
 
 h3 {
-    color: #000000;   
+    color: #000000;
 }
 
 /* top */
@@ -73,7 +73,6 @@ header {
  .top-wrapper {
     padding: 18px;
     text-align: center;
-    margin-bottom: 30vw;
 /* animation */
     animation-name:top-wrapper;
     animation-duration:3s;
@@ -91,6 +90,15 @@ header {
       }
     }
 
+
+#top-img {
+    width: 100px;
+    height: 100px;
+    background-image: url(../../assets/image/logo.png);
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
 #top-title {
     font-size: 64px;
     background: linear-gradient(transparent 64%, #FFFCCE 20%);
@@ -107,10 +115,169 @@ header {
 }
 
 
-footer {
-    height: 10%;
-    display: flex;  
-    justify-content: flex-end;
-    font-size: large;
-    margin: 0 10pt 10pt 0;
+/* main */
+.section-wrapper{
+    margin-top: 16vw;
+}
+
+.title {
+    text-align: left;
+    margin-left: 20vw;
+    font-size: 42px;
+    font-family: "Mr-Eaves-Modern"; 
+}
+
+.subtitle {
+    text-align: left;
+    margin-left: 14vw;
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-family: "TBUDGothic-Std";
+    background: linear-gradient(transparent 64%, #FFFCCE 20%);
+    max-width: fit-content;
+}
+
+
+.text-wrapper {
+    margin: 6% 10%;
+    display: flex;
+}
+
+#concept-item{
+    width: 46%;
+    margin-right: 10%;
+}
+
+#concept-text{
+    width: 42%;
+    font-size: 24px;
+    text-align: justify;
+    text-justify: auto;
+}
+
+#concept-text p{
+    margin-bottom: 54px;
+    line-height: 54px;
+}
+
+#concept-img{
+    width: 230px;
+    height: 300px;
+    background-image: url(../../assets/image/concept-img.png);
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    margin-left: 40%;
+}
+
+#text-wrapper-about{
+    margin: 4% 10%;
+}
+
+#about-content-wrapper{
+    display: flex;
+    align-items: baseline;
+    margin-top: 4%;
+    margin-left: 14%;
+}
+
+.about-content{
+    width: 24%; 
+    text-align: justify;
+    text-justify: auto;
+    margin-right: 4%; 
+}
+
+.about-content h4{
+    font-size:28px;
+}
+
+.about-content p{
+    font-size:16px;
+    line-height: 36px;
+}
+
+
+#text-wrapper-works{
+    align-content: center;
+    margin:  4% 26% 0 26%;
+}
+
+.works-content{
+    background-image: url(../../assets/image/works-back.png);
+    background-repeat: no-repeat;
+    padding: 4% 20px 20px 20px;
+    margin-bottom: 2%;
+    width: 120%;
+    height: 100%;
+}
+
+.works-content a{
+    font-family:"Mr-Eaves-Modern";
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#yaotan{
+    font-family:"TBUDGothic-Std";
+    font-size: 32px;
+}
+
+.works-content p{
+    font-size: 16px;
+}
+
+#text-wrapper-contact{
+    margin:  6% 10% 10vw 10% ;
+}
+
+#text-wrapper-contact h4{
+    font-size: 30px;
+}
+
+#contact{
+    background-color: #4444441A;
+    text-decoration: underline;
+    padding: 24px 58px;
+    margin: 6% 24% 0 24% ;
+    display: flex;
+}
+
+#contact a{
+    justify-content: space-between;
+    margin: auto 10%;
+    font-size: 20px;
+}
+
+/* //main */
+
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+#footer-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer-content p{
+    margin: 10px 0;
+}
+
+#footer-bar{
+    background-image: url(../../assets/image/footerbar.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 10px;
+}
+
+#footer-logo{
+    background-image: url(../../assets/image/logo-s.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
 }
