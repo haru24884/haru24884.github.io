@@ -4,6 +4,8 @@
 * {
     padding: 0;
     margin: 0;
+    float: none;
+	position: static;
 }
 
 @media screen {
@@ -144,8 +146,14 @@ header {
 }
 
 #concept-item{
-    width: 46%;
-    margin-right: 10%;
+    width: 50%;
+    margin-right: 8%;
+
+}
+
+#concept-item h3{
+    display: flex;
+    justify-content: center;
 }
 
 #concept-text{
@@ -237,14 +245,13 @@ header {
 #contact{
     background-color: #4444441A;
     text-decoration: underline;
-    padding: 24px 58px;
-    margin: 6% 24% 0 24% ;
+    padding: 24px 6%;
     display: flex;
-}
+    justify-content: space-between;
+    margin: 6% 24% 0 24% ;
+} 
 
 #contact a{
-    justify-content: space-between;
-    margin: auto 10%;
     font-size: 20px;
 }
 
