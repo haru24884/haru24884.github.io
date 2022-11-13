@@ -321,7 +321,7 @@ h3 {
 /* ----------------sp---------------------------- */
 @media screen and (max-width: 1000px) {
     header {
-        display: list-item;
+        height: 30vw;
         font-size: small;
         
         /* animation */
@@ -342,6 +342,7 @@ h3 {
         }
 
     .nav-list {
+        display: none;
         text-align: right;
         margin-top: 2%;
         margin-right: 4%;
