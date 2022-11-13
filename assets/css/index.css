@@ -271,7 +271,7 @@ h3 {
         font-weight: normal;
     }
 
-    #contact{
+    #contact-social{
         background-color: #4444441A;
         text-decoration: underline;
         padding: 24px 6%;
@@ -321,7 +321,7 @@ h3 {
 /* ----------------sp---------------------------- */
 @media screen and (max-width: 1000px) {
     header {
-        display: list-item;
+        height: 30vw;
         font-size: small;
         
         /* animation */
@@ -342,6 +342,7 @@ h3 {
         }
 
     .nav-list {
+        display: none;
         text-align: right;
         margin-top: 2%;
         margin-right: 4%;
@@ -550,7 +551,7 @@ h3 {
         font-weight: normal;
     }
 
-    #contact{
+    #contact-social{
         background-color: #4444441A;
         text-decoration: underline;
         display: flex;
