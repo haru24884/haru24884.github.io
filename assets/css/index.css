@@ -271,7 +271,7 @@ h3 {
         font-weight: normal;
     }
 
-    #contact{
+    #contact-social{
         background-color: #4444441A;
         text-decoration: underline;
         padding: 24px 6%;
@@ -551,7 +551,7 @@ h3 {
         font-weight: normal;
     }
 
-    #contact{
+    #contact-social{
         background-color: #4444441A;
         text-decoration: underline;
         display: flex;
