@@ -321,7 +321,7 @@ h3 {
 /* ----------------sp---------------------------- */
 @media screen and (max-width: 1000px) {
     header {
-        height: 30vw;
+        height: 40vw;
         font-size: small;
         
         /* animation */
