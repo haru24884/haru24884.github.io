@@ -238,31 +238,24 @@ h3 {
         margin:  4% 26% 0 26%;
     }
 
-    #works-content-katten{
-        background-image: url(../../assets/image/works-back.png);
+    .works-content{
         background-repeat: no-repeat;
         padding: 4% 20px 20px 20px;
         margin-bottom: 2%;
-        width: 120%;
+        min-width: 600px;
         height: 100%;
+    }
+
+    #works-content-katten{
+        background-image: url(../../assets/image/katten-back.png);
     }
 
     #works-content-craftshop{
         background-image: url(../../assets/image/craftshop-back.png);
-        background-repeat: no-repeat;
-        padding: 4% 20px 20px 20px;
-        margin-bottom: 2%;
-        width: 120%;
-        height: 100%;
     }
 
     #works-content-yaotan{
         background-image: url(../../assets/image/works-back.png);
-        background-repeat: no-repeat;
-        padding: 4% 20px 20px 20px;
-        margin-bottom: 2%;
-        width: 120%;
-        height: 100%;
     }
 
     .works-content a{
@@ -536,31 +529,24 @@ h3 {
         margin:  10% 0;
     }
 
-    #works-content-katten{
-        background-image: url(../../assets/image/works-back.png);
+    .works-content{
         background-repeat: no-repeat;
         padding: 4% 20px 20px 20px;
         margin-bottom: 2%;
-        width: 120%;
+        min-width: 300px;
         height: 100%;
+    }
+
+    #works-content-katten{
+        background-image: url(../../assets/image/katten-back.png);
     }
 
     #works-content-craftshop{
         background-image: url(../../assets/image/craftshop-back.png);
-        background-repeat: no-repeat;
-        padding: 4% 20px 20px 20px;
-        margin-bottom: 2%;
-        width: 120%;
-        height: 100%;
     }
 
     #works-content-yaotan{
         background-image: url(../../assets/image/works-back.png);
-        background-repeat: no-repeat;
-        padding: 4% 20px 20px 20px;
-        margin-bottom: 2%;
-        width: 120%;
-        height: 100%;
     }
 
     .works-content a{
@@ -571,7 +557,7 @@ h3 {
 
     #yaotan{
         font-family:"TBUDGothic-Std";
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .works-content p{
