@@ -258,7 +258,13 @@ h3 {
         background-image: url(../../assets/image/yaotan-back.png);
     }
 
-    .works-content a{
+    #craftshop{
+        font-family:"Mr-Eaves-Modern";
+        font-size: 38px;
+        font-weight: bold;
+    }
+
+    #katten{
         font-family:"Mr-Eaves-Modern";
         font-size: 38px;
         font-weight: bold;
@@ -267,6 +273,7 @@ h3 {
     #yaotan{
         font-family:"TBUDGothic-Std";
         font-size: 32px;
+        font-weight: bold;
     }
 
     .works-content p{
