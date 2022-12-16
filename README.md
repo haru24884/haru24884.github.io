@@ -1,4 +1,4 @@
-# portfolio of haru24884(2022/11)
+# portfolio of haru24884(2022)
 #### haru24884のポートフォリオサイト
 
 ## Extra tools
