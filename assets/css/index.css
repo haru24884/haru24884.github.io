@@ -328,6 +328,7 @@ h3 {
     }
 
     #footer-content p{
+        font-size: xx-small;
         margin: 10px 0;
     }
 
@@ -339,11 +340,11 @@ h3 {
     }
 
     #footer-logo{
-        background-image: url(../../assets/image/logo-s.png);
+        background-image: url(../../assets/image/logo-s-sp.png);
         background-repeat: no-repeat;
-        width: 100px;
-        height: 50px;
-        margin-top: 20px;
+        width: 50px;
+        height: 24px;
+        margin-top: 14px;
     }
 
 /* ----------------sp---------------------------- */
